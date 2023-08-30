@@ -1,0 +1,152 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img10.jpg);
+    background-size: cover;
+}
+.container{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    
+}
+.img-box1{
+    background-image: url(img1.jpg);
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+.img-box1:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 20px white;
+    transition: 0.5s;
+}
+
+.img-box2{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+.img-box2:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 20px white;
+    transition: 0.5s;
+}
+.img-box3{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+.img-box3:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 20px white;
+    transition: 0.5s;
+}
+.img-box4{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+.img-box4:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 20px white;
+    transition: 0.5s;
+}
+.img-box5{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+.img-box5:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 20px white;
+    transition: 0.5s;
+}
+.img-box6{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+.img-box6:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 20px white;
+    transition: 0.5s;
+}
+h5{
+    color: white;
+    text-shadow: 0 0 10px red;
+}
+h2{
+    color: red;
+    font-size: 300%;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+}
+.slideshow{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    overflow: hidden;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 20px white;
+}
+.wrap{
+    width: 100%;
+    display: flex;
+    animation: slide 10s infinite;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+    
+}
+    
